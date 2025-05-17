@@ -33,7 +33,7 @@
         <img src="photo/images.jpeg" alt="school logo">
     </a>
     <hr>
-    <table border="1" width="100%">
+    <table border="1" width="100%" cellspacing="15" cellpadding="15">
         <thead bgcolor="#CCCCCC">
             <th>รหัสสินค้า</th>
             <th>ภาพสินค้า</th>
@@ -44,24 +44,25 @@
         <tbody>
             <tr bgcolor="green">
                 <td>A001</td>
-                <td><img src="https://cdn.pixabay.com/photo/2016/04/13/14/27/google-chrome-1326908_640.png" alt="Google Logo" width="300px" height="300px"></td>
+                <td><img src="https://cdn.pixabay.com/photo/2016/04/13/14/27/google-chrome-1326908_640.png" alt="Google Logo" width="150px" height="150px"></td>
                 <td>Google</td>
                 <td>200 M</td>
-                <td><a href="#">สั่งซื้อ</a></td>
+                <td rowspan="2" align="center"><a href="#">สั่งซื้อ</a></td>
             </tr>
-            <tr bgcolor="red">
+            <tr bgcolor="red" align="center">
                 <td>A002</td>
-                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" alt="Facebook Logo" width="300px" height="300px"></td>
+                <td align="left"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" alt="Facebook Logo" width="150px" height="150px"></td>
                 <td>Facebook</td>
                 <td>400 M</td>
                 <td><a href="#">สั่งซื้อ</a></td>
             </tr>
         </tbody>
-        <tr>
-            <td>สั่งซื้อโดย: ต๋อง</td>
-        </tr>
         <tfoot>
-
+            <tr>
+                <td colspan="5">สั่งซื้อโดย: ต๋อง</td>
+                <td></td>
+                <td></td>
+            </tr>
         </tfoot>
     </table>
 </body>

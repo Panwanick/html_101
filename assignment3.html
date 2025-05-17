@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์มสมัครเรียน</title>
+</head>
+<body>
+    <h1 align="center">แบบฟอร์มสมัครเรียน</h1>
+    <form>
+        <div>
+            <label for="firstname">ชื่อ: </label>
+            <input type="text" name="firstname" placeholder="ป้อนชื่อของคุณ" required>
+        </div>
+        <div>
+            <label for="surname">นามสกุล: </label>
+            <input type="text" name="surname" placeholder="ป้อนนามสกุลของคุณ" required>
+        </div>
+        <div>
+            <label for="gender">เพศ: </label>
+            <input type="radio" name="gender">ชาย
+            <input type="radio" name="gender">หญิง
+        </div>
+        <div>
+            <label for="date">วันเกิด: </label>
+            <input type="date" name="date">
+        </div>
+        <div>
+            <label for="email">อีเมลล์: </label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="mobile">เบอร์โทรศัพท์: </label>
+            <input type="number" name="mobile">
+        </div>
+        <div>
+            <label for="address">ที่อยู่ปัจจุบัน: </label>
+            <textarea name="" placeholder="ระบุที่อยู่ของคุณ" cols="30" rows="4"></textarea>
+        </div>
+        <div>
+            <label for="school">สถานศึกษาเดิม: </label>
+            <input type="text" name="school" placeholder="ชื่อโรงเรียนหรือมหาวิทยาลัย">
+        </div>
+        <div>
+            <label for="applyingfor">ระดับการศึกษาที่สมัคร: </label>
+            <select name="applyingfor">
+                <option value="level">ปริญญาตรี</option>
+                <option value="level">ปริญญาโท</option>
+                <option value="level">ปริญญาเอก</option>
+            </select>
+        </div>
+        <div>
+            <label for="school">สถานศึกษาเดิม: </label>
+            <input type="checkbox" name="course">วิทยาการคอมพิวเตอร์
+            <input type="checkbox" name="course">บริหารธุรกิจ
+            <input type="checkbox" name="course">นิเทศศาสตร์
+            <input type="checkbox" name="course">อื่นๆ
+        </div>
+        <div>
+            <label for="file">แนบเอกสารประกอบ: </label>
+            <input type="file" name="file">
+        </div>
+        <div>
+            <input type="submit" value="ส่งใบสมัคร">
+            <button type="reset">ล้างข้อมูล</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ใบสมัคร</title>
+</head>
+<body>
+    <h1>ใบสมัคร</h1>
+    <form>
+        <div>
+            <label for="firstname">ชื่อ:</label>
+            <input type="text" name="firstname" placeholder="ป้อนชื่อของคุณ" required>
+        </div>
+        <div>
+            <label for="surname">นามสกุล:</label>
+            <input type="text" name="surname" placeholder="ป้อนนามสกุลของคุณ">
+        </div>
+        <div>
+            <label for="email">อีเมลล์:</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="username">ชื่อผู้ใช้:</label>
+            <input type="text" name="username">
+        </div>
+        <div>
+            <label for="password">รหัสผ่าน:</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label for="address">ที่อยู่:</label>
+            <textarea name="address" id="" cols="10" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="date">วันที่:</label>
+            <input type="date" name="date">
+        </div>
+        <div>
+            <label for="color">สี:</label>
+            <input type="color" name="color">
+        </div>
+        <div>
+            <label for="movie">หนังที่ชอบ:</label>
+            <select name="movie" id="">
+                <option value="movie">One Piece</option>
+                <option value="movie">Naturo</option>
+                <option value="movie">Attack on Titans</option>
+            </select>
+        </div>
+        <div>
+            <label for="sports">กีฬาที่ชอบ:</label>
+            <input type="radio" name="sport">Football
+            <input type="radio" name="sport">Basketball
+            <input type="radio" name="sport">Baseball
+            <input type="radio" name="sport">Volleyball
+        </div>
+        <div>
+            <label for="music">ชนิดของเพลงที่ชอบ:</label>
+            <input type="checkbox" name="music">ดนตรีไทย (T-POP)
+            <input type="checkbox" name="music">ดนตรีสากล
+        </div>
+        <div>
+            <label for="file">อัพโหลดไฟล์:</label>
+            <input type="file" name="file">
+        </div>
+        <div>
+            <label for="url">เว็บไซต์ URL:</label>
+            <input type="url" name="url">
+        </div>
+        <div>
+            <input type="submit" value="บันทึกข้อมูล">
+            <button type="reset">รีเซ็ตข้อมูล</button>
+        </div>
+    </form>
+</body>
+</html>
